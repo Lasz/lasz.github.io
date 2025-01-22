@@ -6,8 +6,11 @@ pagination:
 ---
 <div class="article-summary">
     <h2>Articles</h2>
-    {% for article in paginator.posts %}
-        <span class="article-item">{{ article.date | date: '%Y-%m-%d' }} >> <a href="{{ article.url }}">{{ article.title }}</a><span class="float-right">{{ article.categories }}</span></span>
+    {% for post in paginator.posts %}
+        <span class="article-item">{{ post.date | date: '%Y-%m-%d' }} >>
+            <a href="{{ article.url }}">{{ post.title }}</a>
+            <span class="float-right">{{ post.categories }}</span>
+        </span>
     {% endfor %}
 </div>
 

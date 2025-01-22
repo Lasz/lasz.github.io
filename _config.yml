@@ -17,7 +17,7 @@ analytics:
     script_source: 'https://plausible.io/js/script.js'
 
 collections:
-  projects:
+  project:
     output: true
 
 defaults:
