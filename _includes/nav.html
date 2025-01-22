@@ -1,8 +1,7 @@
 <nav>
-    [
+    \{
     {% for item in site.data.nav %}
-        <a href="{{ item.link }}">{{ item.name }}</a>
-        {% unless forloop.last %}, {% endunless %}
+        <a href="{{ item.link }}">{{ item.name }}</a>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
-    ]
+    \}
 </nav>
