@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "3.3.4"
+ruby "3.3.7"
 gem "jekyll"
 gem "jekyll-feed"
 gem "jekyll-paginate-v2"
