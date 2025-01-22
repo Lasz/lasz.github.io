@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LightSpeed Contact
+title: Mayer - Home
 ---
 
 ## About

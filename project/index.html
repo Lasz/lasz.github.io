@@ -1,15 +1,20 @@
 ---
 layout: default
+title: Lasz :: project[]
 pagination:
-  enabled: true
-  per_page: 10
+    enabled: true
 ---
-<div class="article-summary">
-    <h2>Articles</h2>
-    {% for article in paginator.posts %}
-        <span class="article-item">{{ article.date | date: '%Y-%m-%d' }} >> <a href="{{ article.url }}">{{ article.title }}</a><span class="float-right">{{ article.categories }}</span></span>
-    {% endfor %}
-</div>
+
+<h2>Projects</h2>
+
+<h2>Posts</h2>
+{% for article in paginator.posts %}
+    <span class="article-item">
+        <span class="mobile-hide"> {{ article.date | date: '%Y-%m-%d' }} >> </span>
+        <a href="{{ article.url }}">{{ article.title }}</a>
+        <span class="float-right mobile-hide">{{ article.categories }}</span>
+    </span>
+{% endfor %}
 
 <div class="article-nav">
     {% if paginator.total_pages > 1 %}
