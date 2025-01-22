@@ -1,6 +1,5 @@
 ---
-layout: post
-author: tajacks
+layout: article
 title: Second Sample 4
 ---
 
