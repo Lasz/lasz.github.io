@@ -16,6 +16,10 @@ analytics:
     site_fqdn: 'your.site.fqdn'
     script_source: 'https://plausible.io/js/script.js'
 
+collections:
+  projects:
+    output: true
+
 defaults:
   -
     scope:
