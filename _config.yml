@@ -16,6 +16,14 @@ analytics:
     site_fqdn: 'your.site.fqdn'
     script_source: 'https://plausible.io/js/script.js'
 
+defaults:
+  -
+    scope:
+      path: "/project/"
+      type: "posts"
+    values:
+      identifier: "project"
+
 # Styling
 sass:
   sass_dir: _sass

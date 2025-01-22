@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mayer - Home
+title: Lasz
 ---
 
 ## About
